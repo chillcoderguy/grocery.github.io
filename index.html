@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/mdb.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/css/all.css">
+</head>
+<body>
+  <!--  resposive menu-->
+  <div class="responsive-menu">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="logo-1"><img src="images/logo.png" height="40"></div>
+        <div class="social-icon ">
+          <ul>
+            <li><a href="#"><i class="fa fa-user"></i> </a></li>
+            <li><a href="#"><i class="far fa-heart"></i></a></li>
+            <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
+          </ul>
+        </div>
+        <span onclick="nav1()"><i class="fa fa-bars"></i></span>
+      </div>
+    </div>
+  </div>
+  <script>
+    a = 1;
+    function nav1() {
+      var x = document.getElementById("sidebar")
+      if (a == 1) {
+        x.style.transform = "translate(0% ,   0%)"
+        a = 2;
+      }
+
+      else {
+        x.style.transform = "translate(-100% ,   0%)"
+        a = 1;
+      }
+    }
+  </script>
+  <!--       header-area       -->
+  <div id="sidebar">
+    <div class="list">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">FRUITS & VEGITABLES</a></li>
+        <li><a href="#">GROCERY & STAPLES</a></li>
+        <li><a href="#">PAGES</a></li>
+        <li><a href="#">CONTACTS</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- siderbarclose -->
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <ul>
+            <li><a href="#">English</a></li>
+            <li><a href="#">USD- Us Dollar</a></li>
+            <li><a href="#">Working Time: Mon- sat 8:00 - 21:0</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <ul class="header-align">
+            <li><a href="#">My Acount</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Faq</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="logo-area">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="logo"><img src="images/logo.png"></div>
+      <div class="search-bar" style="width:400px">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search">
+          <div class="input-group-append m-0 ">
+            <button class="btn-custome" type="submit"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-media">
+        <ul>
+          <li><a href="#"><i class="fa fa-user"></i> </a></li>
+          <li><a href="#" style="background-color: #f2eccf;"><i class="far fa-heart"></i><span id="circle">0</span></a>
+          </li>
+          <li><a href="#" style="background-color: #f8e3d1;"><i class="fas fa-shopping-basket"></i><span
+                id="circle">1</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--   navbar--->
+
+  <nav>
+    <div class="container d-flex justify-content-between align-items-center ">
+      <div class="cat-btn"><button><i class="fa fa-bars"></i> &nbsp; All Department</button></div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">FRUITS & VEGITABLES</a></li>
+          <li><a href="#">GROCERY & STAPLES</a></li>
+          <li><a href="#">PAGES</a></li>
+          <li><a href="#">CONTACTS</a></li>
+
+        </ul>
+      </div>
+      <div class="super-store"><button><i class="fas fa-store"></i> &nbsp; Super Store</button></div>
+    </div>
+  </nav>
+
+  <!--   ****************slider*****************    -->
+  <div class="banner">
+    <div class="container">
+      <div class="main-row">
+        <div class="cols-5">
+          <div class="box-1 d-flex align-items-center p-4">
+            <div class="flex-box">
+              <p>TOP DEAL !</p>
+              <H1>ORGANIC FOOD</H1>
+              <p>Get Up To 50% OFF Today Only</p>
+              <button class="info-button">SHOP NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="cols-3">
+          <div class="box-2">
+            <img src="images/banner-2.jpg" width="100%" height="48%">
+            <img src="images/banner-3.jpg" width="100%" height="48%">
+          </div>
+        </div>
+
+        <div class="cols-3">
+          <div class="box-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--          *********main-card**********************         -->
+  <div class="card-section">
+    <div class="container">
+      <div class="inner-box">
+        <div class="row">
+          <div class="col-lg-2 col-sm-4 text-center">
+            <div class="a1">
+              <img src="images/cat-1.png" class="img-fluid">
+              <h5>JUICE & DRINKS</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-2  col-sm-4  text-center">
+            <div class="a1">
+              <img src="images/mutton.png" class="img-fluid">
+              <h5>JUICE & DRINKS</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-2  col-sm-4  text-center">
+            <div class="a1">
+              <img src="images/img-1.png" class="img-fluid">
+              <h5>JUICE & DRINKS</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-2  col-sm-4  text-center">
+            <div class="a1">
+              <img src="images/img-2.png" class="img-fluid">
+              <h5>JUICE & DRINKS</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-2  col-sm-4  text-center">
+            <div class="a1">
+              <img src="images/img-3.png" class="img-fluid">
+              <h5>JUICE & DRINKS</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-2  col-sm-4  text-center">
+            <div class="a1">
+              <img src="images/cat-1.png" class="img-fluid">
+              <h5>JUICE & DRINKS</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--    card-section-4          -->
+
+  <div class="card-section-4">
+    <div class="container">
+      <div class="inner-box-2">
+        <div class="row">
+
+
+          <div class="col-lg-4">
+            <div class="a1">
+              <img src="images/card-1.jpg">
+              <div class="caption-box text-right">
+                <p>HEALTHY FOOD</p>
+                <H5>100 ORGANIC<BR> UP 35%</H5>
+                <button>SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4">
+            <div class="a1">
+              <img src="images/card-2.jpg">
+              <div class="caption-box text-right">
+                <p>HEALTHY FOOD</p>
+                <H5>100 ORGANIC<BR> UP 35%</H5>
+                <button>SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4">
+            <div class="a1">
+              <img src="images/card-3.jpg">
+              <div class="caption-box ">
+                <p>HEALTHY FOOD</p>
+                <H5>100 ORGANIC<BR> UP 35%</H5>
+                <button>SHOP NOW</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- product-card-->
+  <div class="product-card">
+
+    <div class="container">
+      <div class="our-best">
+        <div class="right-box text-center pb-3">
+
+          <h2>Best Deal <span id="sale">Of this Week</span></h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. us autem?</p>
+        </div>
+
+      </div>
+
+
+
+      <div class="row">
+        <div class="cols-5">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/mirchi.png">
+              <div class="card-footers ">
+                <div class="info">
+                  <span id="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                  <h5>Watnutes Max</h5>
+                  <h6>$1.50/kg</h6>
+                </div>
+
+                <div class="info">
+                  <div class="circle-round">+</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--  item-2-->
+
+        <div class="cols-5">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/akh.png">
+              <div class="card-footers ">
+                <div class="info">
+                  <span id="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                  <h5>Watnutes Max</h5>
+                  <h6>$1.50/kg</h6>
+                </div>
+
+                <div class="info">
+                  <div class="circle-round">+</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!--  item=3-->
+
+
+        <div class="cols-5">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/dabba.png">
+              <div class="card-footers ">
+                <div class="info">
+                  <span id="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                  <h5>Watnutes Max</h5>
+                  <h6>$1.50/kg</h6>
+                </div>
+
+                <div class="info">
+                  <div class="circle-round">+</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--  item-4-->
+
+        <div class="cols-5">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/lem.png">
+              <div class="card-footers ">
+                <div class="info">
+                  <span id="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                  <h5>Watnutes Max</h5>
+                  <h6>$1.50/kg</h6>
+                </div>
+
+                <div class="info">
+                  <div class="circle-round">+</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- item-5-->
+
+        <div class="cols-5">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/potat.png">
+              <div class="card-footers ">
+                <div class="info">
+                  <span id="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                  <h5>Watnutes Max</h5>
+                  <h6>$1.50/kg</h6>
+                </div>
+
+                <div class="info">
+                  <div class="circle-round">+</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!--  ********************************* card-next****************************************-->
+  <div class="card-next">
+
+    <div class="container">
+      <div class="our-best d-flex justify-content-between align-items-center">
+        <div class="right-box">
+          <p>Best Sellers</p>
+          <h2>Best Offers View</h2>
+        </div>
+        <div class="left-box">
+          <button id="shop"> View All</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="box-5">
+          <div class="card-1">
+            <span id="new">new</span>
+            <img src="images/item-2.png">
+            <span id="satar-2"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+            <h5>Uncle Orange vlana<br> Ready Pice</h5>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box-5">
+          <div class="card-1">
+            <span id="new">new</span>
+            <img src="images/pro-5.png">
+            <span id="satar-2"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+            <h5>Uncle Orange vlana<br> Ready Pice</h5>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+
+        <div class="box-5">
+          <div class="card-1">
+            <span id="off">15%</span>
+            <img src="images/pro-1.png">
+            <span id="satar-2"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+            <h5>Uncle Orange vlana <br>Ready Pice</h5>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box-5">
+          <div class="card-1">
+            <span id="new">new</span>
+
+            <img src="images/a2.png">
+            <span id="satar-2"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+            <h5>Uncle Orange vlana<br> Ready Pice</h5>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box-5">
+          <div class="card-1">
+            <span id="off">30%</span>
+            <img src="images/a3.png">
+            <span id="satar-2"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+            <h5>Uncle Orange vlana<br> Ready Pice</h5>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="last-banner">
+    <div class="card-section-4">
+      <div class="container">
+        <div class="inner-box-2">
+          <div class="row">
+
+
+            <div class="col-lg-6">
+              <div class="a1">
+                <img src="images/agg.jpg">
+                <div class="caption-box">
+                  <p>HEALTHY FOOD</p>
+                  <H5>100 ORGANIC<BR> UP 35%</H5>
+                  <button>SHOP NOW</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-6">
+              <div class="a1">
+                <img src="images/kheera.jpg">
+                <div class="caption-box">
+                  <p>HEALTHY FOOD</p>
+                  <H5>100 ORGANIC<BR> UP 35%</H5>
+                  <button>SHOP NOW</button>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  *********************footer ****************-->
+
+  <footer class="footer">
+    <div class="main-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <img src="images/logo.png" alt="">
+            <div class="row m-0">
+              <div class="a1" style="padding-top: 20px;">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="a2">
+                <h6 style="padding-top: 10px;">
+                  PO Box W75 Street West New Queens, TX 16819
+                </h6>
+              </div>
+            </div>
+            <br>
+            <div class="row pl-1 m-0">
+              <div class="a1">
+                <i class="fas fa-phone-volume"></i>
+              </div>
+              <div class="a2">
+                <h6>
+                  <a href="#" class="number">+120 279 932 45</a>
+                </h6>
+              </div>
+            </div>
+            <br>
+            <div class="row  pl-1 m-0">
+              <div class="a1">
+                <i class="fas fa-envelope-open-text"></i>
+              </div>
+              <div class="a2">
+                <h6>
+                  <a href="#">support@vegen.com</a>
+                </h6>
+              </div>
+            </div>
+            <br>
+            <div class="row m-0 pl-1">
+              <div class="a1">
+                <i class="far fa-clock"></i>
+              </div>
+              <div class="a2">
+                <h6>
+                  Week 7 days from 7:00 to 20:00
+                </h6>
+              </div>
+            </div>
+
+
+            <div class="footer-social">
+              <div class="row m-0 pl-1">
+                <ul>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <h5>CUSTOMER SERVICE</h5>
+            <div class="list">
+              <ul>
+                <li>
+                  <a href="#">Secure Shoping</a>
+                </li>
+
+                <li>
+
+                  <a href="#">Order Status</a>
+                </li>
+                <li>
+
+                  <a href="#">International Shipping</a>
+                </li>
+                <li>
+
+                  <a href="#">Payment Method</a>
+                </li>
+                <li>
+
+                  <a href="#">Our Blog</a>
+                </li>
+                <li>
+
+                  <a href="#">Order and Returns</a>
+                </li>
+                <li>
+
+                  <a href="#">Track Your Orders</a>
+                </li>
+                <li>
+
+                  <a href="#">Footer Links</a> <br>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <h5>useful links</h5>
+            <div class="list">
+              <ul>
+                <li>
+                  <a href="#">Delivery</a>
+                </li>
+
+                <li>
+
+                  <a href="#">Legal Notice</a>
+                </li>
+                <li>
+
+                  <a href="#">About us</a>
+                </li>
+                <li>
+
+                  <a href="#">Sitemap</a> <br>
+                </li>
+                <li>
+
+                  <a href="#">Track Your Orders</a> <br>
+                </li>
+                <li>
+
+                  <a href="#">Footer Links</a> <br>
+                </li>
+                <li>
+
+                  <a href="#">Orders and Returns</a> <br>
+                </li>
+                <li>
+
+                  <a href="#">Contact Us</a> <br>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box">
+              <h5>DOWNLOAD APP</h5>
+              <div class="store">
+                <img src="images/gpay.png" alt="">
+                <img src="images/app_store.png" alt="">
+              </div>
+              <h5 style="margin-top: 30px;">NEWSLETTER</h5>
+
+              <div class="input-group mb">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+
+                </div>
+              </div>
+
+              <h6 style="margin-top: 25px;">Do Not Show Your Mail</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="bottom-footer py-3">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="box-foo">
+          <h6>Copyright © 2021 Ganic All Rights Reserved</h6>
+        </div>
+        <div class="box-foo "><img src="images/visa.png" class="img-fluid"></div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
